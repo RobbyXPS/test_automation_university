@@ -1,0 +1,27 @@
+Exercises:
+- There are no exercises for this chapter.
+
+Quiz:
+1. The purpose of programs is to _____?
+- Allow people to download software
+- Provide instructions to a computer to enable it to perform tasks [X]
+- Provide a career path for software engineers
+- Disrupt the world
+
+2. What kind of language is a computer able to understand?
+- Any programming language
+- Only machine language [X]
+- Only Java
+- Only human-friendly programming languages
+
+3. What is an algorithm?
+- A complex problem
+- A guide that provides the high level steps to complete a task [X]
+- A programming language
+- A coffee flavor
+
+4. Programs are implementations of ____?
+- Algorithms [X]
+- Computers
+- Machine code
+- 0s and 1s

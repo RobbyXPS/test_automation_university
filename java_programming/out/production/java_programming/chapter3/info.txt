@@ -1,0 +1,48 @@
+Section 3A (if statements):
+
+1. Which of the following is used to enclose code comments that span multiple lines?
+- //
+- /* */ [X]
+- {}
+- []
+
+2. Comments can only exist within a method.
+- True
+- False [X]
+
+3. What is an if statement?
+- A decision structure that executes statement(s) given some condition is met [X]
+- A loop
+- A variable
+- A class
+
+4. What goes inside of the parentheses of an if statement?
+- A counter
+- A variable declaration
+- A condition [X]
+- A String
+
+5. A condition is what type of expression?
+- String
+- int
+- float
+- boolean [X]
+
+6. The boolean data type holds ____
+- whole numbers
+- decimal numbers
+- Strings
+- true or false [X]
+
+7. Any time a variable is updated with a new value, it must be re-declared.
+- True
+- False [X]
+
+8. What is a magic number?
+- A number that the program randomly generates
+- A number that is hard-coded as opposed to being represented by a variable [X]
+- A number that changes every time the program runs
+- A number with the data type of Magic
+
+Section 3B (if/else statements):
+
