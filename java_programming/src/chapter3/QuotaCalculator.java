@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class QuotaCalculator {
 
-    public static void main(String args[]){
+    public void main(String args[]){
         // Instantiate known variables
         int quota = 10;
 

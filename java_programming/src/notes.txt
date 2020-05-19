@@ -1,0 +1,20 @@
+ /*
+        int customer_employment_duration = scanner.nextInt();
+
+        // Compare loan requirements to customers using nested ifs
+        if(customer_salary >= required_salary){
+            if(customer_employment_duration >= required_employment_duration){
+                // customer approved
+                System.out.println("Congratulations! You have been approved for your $30,000 loan.");
+            }
+            else{
+                // customer doesn't meet employment duration requirement
+                System.out.println("We are sorry, your employment duration does not meet the minimum requirement of "
+                        + customer_employment_duration + " years.");
+            }
+            // customer doesn't meet minimum required salary
+            System.out.println("We are sorry, your salary does not meet the minimum required salary of"
+                    + required_salary);
+        }
+    }
+    */

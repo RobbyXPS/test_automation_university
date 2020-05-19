@@ -47,29 +47,211 @@ Section 3A (if statements):
 Section 3B (if/else statements):
 
 1. How many paths exist in an if-else statement?
-0
-1
-2 [X]
-3
+- 0
+- 1
+- 2 [X]
+- 3
 
 2. When will statements inside of an if block be executed?
-All the time
-Only if condition is true [X]
-Only if condition is false
-Never
+- All the time
+- Only if condition is true [X]
+- Only if condition is false
+- Never
 
 3. When will statements inside of an else block be executed?
-All the time
-Only if condition is true
-Only if condition is false [X]
-Never
+- All the time
+- Only if condition is true
+- Only if condition is false [X]
+- Never
 
 4. It is possible to execute the statements of both the if and the else blocks of an if-else statement.
-True
-False [X]
+- True
+- False [X]
 
 5. When can curly braces be omitted from an if statement?
-When there’s only one statement that needs to be executed [X]
-When there are several statements that need to be executed
-Anytime - it’s completely optional
-Never - it’s always required
+- When there’s only one statement that needs to be executed [X]
+- When there are several statements that need to be executed
+- Anytime - it’s completely optional
+- Never - it’s always required
+
+Section 3C (nested if statements):
+1. An if statement can exist inside of another if statement.
+- True [X]
+- False
+
+2. The double data type can hold decimal and whole numbers.
+- True [X]
+- False
+
+3. Nested ifs have the same effect as multiple stand-alone if statements.
+- True
+- False [X]
+
+4. Nested ifs have the same effect as a single if-else statement.
+- True
+- False [X]
+
+5. Within a class, how does Java know which else statement is meant to correspond to which if statement.
+- The corresponding else statement is the very next else statement that follows a completed if statement [X]
+- There cannot be multiple if and else statements within a single program
+- The corresponding if and else statements are given the same name
+- Java has no way of knowing
+
+6. When will a nested if statement be evaluated?
+- When the if statement in which it is nested inside of is false
+- When the if statement in which it is nested inside of is true [X]
+- The order is random and cannot be controlled by the programmer
+- Before the if statement in which it is nested inside of
+
+Section 3D (if-else-if statements):
+1. When is it ideal to use an if-else-if statement?
+- When there is one possible path
+- When there are two possible paths
+- When there are more than two possible paths [X]
+
+2. With if-else-if statements, multiple conditions must be specified.
+- True [X]
+- False
+
+3. Which branches of an if-else-if statement are executed?
+- All that are true
+- The first one that is true [X]
+- All that are false
+- The last one that is false
+
+4. Which of the following is a valid value for the char data type?
+- 2
+- 3.5
+- “Hello World”
+- ‘Z’ [X]
+
+5. When declaring a variable, you are required to also initialize it with a value within the same declaration statement.
+- True
+- False [X]
+
+Section 3E (switch statements):
+1. When is it ideal to use a switch statement?
+- When there is one possible path
+- When there are two possible paths
+- When there are more than two possible paths [X]
+
+2. Which decision structure is interchangeable with the switch statement?
+- if
+- if-else
+- if-else-if [X]
+- nested ifs
+
+3. Which type of expression does the condition of a switch statement evaluate?
+- Any
+- None
+- Equality [X]
+- Greater or less than
+
+4. Each path of a switch statement is denoted by the word _____
+- case [X]
+- switch
+- if
+- break
+
+5. Which cases of a switch statement are executed?
+- All that are true
+- The first one that is true [X]
+- All that are false
+- The last one that is false
+
+6. The purpose of the reserved word, break, is to ______
+- Exit an if block and enter an else block
+- End a case block within a switch statement [X]
+- Denote the end of the nested if statements
+- Close the input stream
+
+7. When is the default case within a switch statement executed?
+- Before all other cases are executed
+- When there are no case statements present
+- When the value being evaluated does not equal any of the case statements [X]
+- After a case is executed
+
+8. What will happen in a case where the break statement is omitted?
+- The next case will also be executed [X]
+- The program will crash
+- There will be a compilation error
+- The program will add it by default
+
+9. Which decision structure is best for a case where there’s only one conditional path needed?
+- if [X]
+- if-else
+- if-else-if
+- nested ifs
+- switch
+
+10. Which decision structure is best when there’s two conditional paths, where one should be executed if the condition is true and the other if the condition is false?
+- if
+- if-else [X]
+- if-else-if
+- nested ifs
+- switch
+
+11. Which decision structure is used when there are more than two conditional paths and its condition only checks for equality?
+- if
+- if-else
+- if-else-if
+- nested ifs
+- switch [X]
+
+12. Which decision structure can be used when you need to immediately check another condition if the first condition was met?
+- if
+- if-else
+- if-else-if
+- nested ifs [X]
+- switch
+
+Section 3F (relational and logical operators):
+1. Which relational operator is used to test for equality?
+- >
+- <
+- =
+- == [X]
+
+2. Which of these is an appropriate way to test if a equals 5?
+- if(a = 5)
+- if(a == 5) [X]
+- if(a.equals(5))
+- if(5 = a)
+
+3. Which is true of logical operators?
+- They are interchangeable with relational operators
+- They are used to combine two conditions to result in a single boolean value [X]
+- They are data types
+- There are an infinite number of them to choose from
+
+4. Which of the following is the logical operator for AND
+- >>
+- ||
+- && [X]
+- ==
+
+5. Which of the following is the logical operator for OR
+- >>
+- || [X]
+- &&
+- ==
+
+6. Which logical operator is used to negate a boolean expression?
+- ==
+- !=
+- ! [X]
+- &&
+
+7. What’s the value of (2>3 && 4<=4)?
+- True
+- False [X]
+
+8. What’s the value of (9 != 0 || 5>5)?
+- True [X]
+- False
+
+9. Considering short circuit logic, how many conditions will actually be evaluated in the expression (1>2 && 4<5)?
+- 1 [X]
+- 2
+- 4
+- 5

@@ -46,3 +46,59 @@ Section 3A (if statements):
 
 Section 3B (if/else statements):
 
+1. How many paths exist in an if-else statement?
+- 0
+- 1
+- 2 [X]
+- 3
+
+2. When will statements inside of an if block be executed?
+- All the time
+- Only if condition is true [X]
+- Only if condition is false
+- Never
+
+3. When will statements inside of an else block be executed?
+- All the time
+- Only if condition is true
+- Only if condition is false [X]
+- Never
+
+4. It is possible to execute the statements of both the if and the else blocks of an if-else statement.
+- True
+- False [X]
+
+5. When can curly braces be omitted from an if statement?
+- When there’s only one statement that needs to be executed [X]
+- When there are several statements that need to be executed
+- Anytime - it’s completely optional
+- Never - it’s always required
+
+Section 3C (nested if statements):
+1. An if statement can exist inside of another if statement.
+- True [X]
+- False
+
+2. The double data type can hold decimal and whole numbers.
+- True [X]
+- False
+
+3. Nested ifs have the same effect as multiple stand-alone if statements.
+- True
+- False [X]
+
+4. Nested ifs have the same effect as a single if-else statement.
+- True
+- False [X]
+
+5. Within a class, how does Java know which else statement is meant to correspond to which if statement.
+- The corresponding else statement is the very next else statement that follows a completed if statement [X]
+- There cannot be multiple if and else statements within a single program
+- The corresponding if and else statements are given the same name
+- Java has no way of knowing
+
+6. When will a nested if statement be evaluated?
+- When the if statement in which it is nested inside of is false
+- When the if statement in which it is nested inside of is true [X]
+- The order is random and cannot be controlled by the programmer
+- Before the if statement in which it is nested inside of
